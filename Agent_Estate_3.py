@@ -4,10 +4,10 @@ import json
 import time
 
 # Set up your Azure and OpenAI credentials
-openai_api_key = "your_openai_api_key"  # Replace with your actual OpenAI API key
-azure_stt_key = "your_azure_stt_key"  # Replace with your actual Azure Speech-to-Text API key
-openai_endpoint = "https://your_openai_endpoint.com"  # Replace with your actual OpenAI endpoint
-azure_stt_endpoint = "https://<region>.stt.speech.microsoft.com/speech/recognition/conversation/cognitiveservices/v1"
+openai_api_key = "F4w0ncKnEKn54ox577yHf11Cn3fil3qP4RYl6DGizFGglot7Fv6hJQQJ99AJACYeBjFXJ3w3AAABACOGCl1Q"  # Replace with your actual OpenAI API key
+azure_stt_key = "9Q1WW4Yq1xT02vn0cfPcoVAebOzXVovl3kpWYsoDZrlkbQaG7e5DJQQJ99AKACYeBjFXJ3w3AAAAACOGjlBy"  # Replace with your actual Azure Speech-to-Text API key
+openai_endpoint = "https://agenta.openai.azure.com/"  # Replace with your actual OpenAI endpoint
+azure_stt_endpoint = "https://eastus.stt.speech.microsoft.com"
 
 # Define headers for the APIs
 openai_headers = {
